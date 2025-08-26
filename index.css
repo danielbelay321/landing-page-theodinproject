@@ -81,12 +81,14 @@ button {
 }
 
 .callAction{
+    margin: 5%;
     background-color: #3882F6;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: white;
     padding: 32px;
+    /* margin: 0 auto; */
 }
 
 .signup2{
@@ -98,4 +100,15 @@ footer {
     background-color: #1F2937;
     color: white;
     padding: 16px;
+}
+
+.testimony-center {
+   padding: 18px;
+   width: 500px;
+}
+
+.testimony-center p {
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 1.1;
 }
