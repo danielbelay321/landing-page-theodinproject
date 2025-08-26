@@ -1,0 +1,101 @@
+.nav {
+    background-color: #1F2937;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    color: #F9FAF8;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+li{
+    margin: 0;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* logo - #F9FAF8;
+
+HERO 2NDRY - #E5E7EB; 18px
+
+HERO MAIN - #F9FAF8  48PX */
+
+.my-hero{
+    display: flex;
+    justify-content: space-around;
+    color: #E5E7EB;
+    padding: 48px;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+.awesome{
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.random {
+    text-align: center;
+}
+
+.testimony{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+.author {
+    font-weight: bold;
+    display: block;
+    text-align: right;
+
+}
+
+.callAction{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 32px;
+}
+
+.signup2{
+    border: 1px solid white;
+}
+
+footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 16px;
+}
